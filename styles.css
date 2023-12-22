@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: 'roboto slab', serif;
+}
+
 .nav-bar {
     background-color: #333;
     overflow: hidden;
@@ -16,12 +27,47 @@
 .nav-bar a {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 22px 24px;
   text-decoration: none;
 }
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section{
+  background-color:  #3498ca;
+  height: 50px;
+}
+
+.section-link{
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.second-section{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
    
+
+
 
 h1 {
     color: red;
    }
+
+ 
    
