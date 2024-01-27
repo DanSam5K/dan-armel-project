@@ -7,12 +7,14 @@
 
 // console.log(theHobbit.info());
 
-function Book(title, author, pageNumber) {
+function Book(title, author, pageNumber, read = false) {
   this.title = title;
   this.author = author;
   this.pageNumber = pageNumber;
+  this.read = read;
   this.info = function () {
-    return `${this.title} by ${this.author}, ${this.pageNumber} pages, not read yet`;
+    const status = this.read ? 'read' : 'not read yet';
+    return `${this.title} by ${this.author}, ${this.pageNumber} pages, ${status}`;
   };
 }
 
